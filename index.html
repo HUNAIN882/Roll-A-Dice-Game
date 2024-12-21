@@ -1,0 +1,47 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Roll-a-dice-game-application</title>
+    <link rel="icon" type="image/x-icon" href="./assets/pngtree-red-design-dice-icon-png-image_4956262.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaQuery.css">
+  </head>
+  <body>
+    <div class="container flex">
+      <div class="diceGameBox flex">
+        <div class="playerOne players columFlex">
+          <div class="playersDetail columFlex">
+            <h1>player 1</h1>
+            <h1 id="player1DiceScore">0</h1>
+          </div>
+          <div class="columFlex currentScoreBox">
+            <h3>total score</h3>
+            <h3 id="Player1Score">0</h3>
+          </div>
+        </div>
+        <div class="columFlex buttons">
+          <div>
+            <button id="newGame" disabled> newgame</button>
+          </div>
+          <img src="./assets/1.png" alt="" class="diceImg" id="diceImg" />
+          <div class="columFlex">
+            <button id="rollDice"> roll dice</button>
+            <button id="holdScore" disabled>⬇ hold</button>
+          </div>
+        </div>
+        <div class="playerTwo players columFlex">
+          <div class="playersDetail columFlex">
+            <h1>player 2</h1>
+            <h1 id="player2DiceScore">0</h1>
+          </div>
+          <div class="columFlex currentScoreBox">
+            <h3>total Score</h3>
+            <h3 id="player2Score">0</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

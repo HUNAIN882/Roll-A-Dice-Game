@@ -1,0 +1,285 @@
+@media screen and (max-width: 1300px) {
+    .diceGameBox {
+      width: 75%;
+    }
+    .playersDetail {
+      gap: 12px;
+    }
+  
+    .playersDetail > h1 {
+      font-size: 2.2rem;
+    }
+  
+    .currentScoreBox {
+      padding: 15px 40px;
+      gap: 3px;
+    }
+  
+    .currentScoreBox > h3 {
+      font-size: 1rem;
+    }
+  
+    .currentScoreBox > h3:last-child {
+      font-size: 1.6rem;
+    }
+  
+    .buttons > div > button {
+      padding: 10px 20px;
+      font-size: 0.9rem;
+    }
+  
+    #diceImg {
+      width: 90px;
+      height: 90px;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .playersDetail {
+      gap: 10px;
+    }
+  
+    .playersDetail > h1 {
+      font-size: 1.8rem;
+    }
+  
+    .playersDetail > h1:last-child {
+      font-size: 2.7rem;
+    }
+  
+    .currentScoreBox {
+      padding: 10px 30px;
+      gap: 1px;
+    }
+  
+    .currentScoreBox > h3 {
+      font-size: 0.9rem;
+    }
+  
+    .currentScoreBox > h3:last-child {
+      font-size: 1.2rem;
+    }
+  
+    .buttons > div > button {
+      font-size: 0.8rem;
+    }
+  
+    #diceImg {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  
+  @media screen and (max-width: 900px) {
+    .diceGameBox {
+      width: 70%;
+    }
+  
+    .players {
+      height: 70vh;
+    }
+  
+    .playersDetail {
+      gap: 5px;
+    }
+  
+    .playersDetail > h1 {
+      font-size: 1.6rem;
+    }
+  
+    .playersDetail > h1:last-child {
+      font-size: 2rem;
+    }
+  
+    .currentScoreBox {
+      padding: 10px 25px;
+      gap: 0px;
+    }
+  
+    .currentScoreBox > h3 {
+      font-size: 0.8rem;
+    }
+  
+    .currentScoreBox > h3:last-child {
+      font-size: 1rem;
+    }
+  
+    .buttons {
+      height: 70vh;
+    }
+  
+    .buttons > div > button {
+      padding: 8px 15px;
+      font-size: 0.7rem;
+      border-radius: 8px;
+    }
+  
+    #diceImg {
+      width: 80px;
+      height: 80px;
+      padding: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .diceGameBox {
+      width: 75%;
+    }
+  
+    .players {
+      height: 70vh;
+    }
+  
+    .playersDetail {
+      gap: 3px;
+    }
+  
+    .playersDetail > h1 {
+      font-size: 1.3rem;
+    }
+  
+    .playersDetail > h1:last-child {
+      font-size: 1.5rem;
+    }
+  
+    .currentScoreBox {
+      padding: 8px 20px;
+      border-radius: 6px;
+    }
+  
+    .currentScoreBox > h3 {
+      font-size: 0.7rem;
+    }
+  
+    .currentScoreBox > h3:last-child {
+      font-size: 0.8rem;
+    }
+  
+    .buttons {
+      height: 60vh;
+    }
+  
+    .buttons > div > button {
+      padding: 7px 12px;
+      font-size: 0.6rem;
+    }
+  
+    #diceImg {
+      width: 70px;
+      height: 70px;
+    }
+  }
+  
+  @media screen and (max-width: 575px) {
+    .diceGameBox {
+      width: 80%;
+    }
+  
+    .players {
+      height: 60vh;
+    }
+  
+    .playersDetail > h1 {
+      font-size: 1.1rem;
+    }
+  
+    .playersDetail > h1:last-child {
+      font-size: 1.3rem;
+    }
+  
+    .currentScoreBox {
+      padding: 6px 12px;
+    }
+  
+    .currentScoreBox > h3 {
+      font-size: 0.6rem;
+    }
+  
+    .currentScoreBox > h3:last-child {
+      font-size: 0.7rem;
+    }
+  
+    .buttons {
+      height: 50vh;
+    }
+  
+    .buttons > div > button {
+      padding: 6px 8px;
+      font-size: 0.5rem;
+    }
+  
+    .buttons > div > button:hover {
+      opacity: 1;
+    }
+  
+    #diceImg {
+      width: 70px;
+      height: 70px;
+    }
+  }
+  
+  
+  @media screen and (max-width: 425px) {
+    .diceGameBox {
+      width: 100%;
+    }
+  
+    .playersDetail > h1 {
+      font-size: 1rem;
+    }
+  
+    .currentScoreBox {
+      padding: 5px 10px;
+    }
+  
+    .currentScoreBox > h3 {
+      font-size: 0.5rem;
+    }
+  
+    .buttons {
+      height: 40vh;
+    }
+  
+    .buttons > div > button {
+      padding: 6px 7px;
+      font-size: 0.45rem;
+    }
+  
+    #diceImg {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  
+  @media screen and (max-width: 375px) {
+    .players {
+      height: 50vh;
+    }
+  
+    .playersDetail > h1 {
+      font-size: 0.8rem;
+    }
+  
+    .currentScoreBox {
+      padding: 4px 9px;
+    }
+  
+    .buttons > div > button {
+      padding: 6px 6px;
+      font-size: 0.4rem;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .players {
+      height: 45vh;
+    }
+  
+    .playersDetail > h1 {
+      font-size: 0.7rem;
+    }
+  
+    .playersDetail >h1:last-child{
+      font-size: 0.7rem;
+    }
+  }
+  
